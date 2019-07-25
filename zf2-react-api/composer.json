@@ -1,0 +1,21 @@
+{
+	"name": "webdev/zf-skeleton",
+	"description": "A skeleton project for the wdzf stack.",
+	"require": {
+		"webdev/webdev": "~2.5.0",
+		"iastate-theme/zf": "^2.0"
+	},
+	"scripts": {
+		"post-install-cmd": "Webdev\\Composer\\Script::postInstall",
+		"pre-update-cmd": "[ -x bin/webdev ] && php bin/webdev cache:clear || :",
+		"post-update-cmd": "Webdev\\Composer\\Script::postUpdate"
+	},
+	"config": {
+		"bin-dir": "bin",
+		"optimize-autoloader": true,
+		"preferred-install": "dist"
+	},
+    "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  }
+}

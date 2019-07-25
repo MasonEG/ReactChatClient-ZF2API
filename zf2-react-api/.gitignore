@@ -1,0 +1,28 @@
+# Project specific
+/config/local.config.php
+/public/modules/
+/public/uploads
+/upload_tmp_dir/
+/vendor/
+
+# IDEs
+.idea/
+*.sublime-workspace
+nbproject/
+.*.s[a-w][a-z]
+*~
+.*~
+
+# Mac OS X
+._*
+.AppleDouble
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+.fuse*
+
+# Windows
+ehthumbs.db
+Thumbs.db
